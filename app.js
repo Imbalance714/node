@@ -32,9 +32,6 @@ app.use((req, res, next) => {
   next(err);
 });
 
-app.listen(8081, function () {
-  console.log('Example app listening on port 3000!');
-});
 
 // error handler
 app.use((err, req, res, next) => {
